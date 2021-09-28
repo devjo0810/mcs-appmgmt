@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mcs?autoReconnect=true
+    username: mcsadmin
+    password: mcs1234
+    driver-class-name: org.mariadb.jdbc.Driver
